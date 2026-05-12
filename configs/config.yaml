@@ -1,0 +1,7 @@
+mlflow:
+  tracking_uri: "./mlruns"
+  experiment: "persian-sentiment-analysis"
+drift:
+  threshold: 0.2
+ab_test:
+  traffic_split: 0.9
